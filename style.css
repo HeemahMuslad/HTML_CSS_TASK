@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; 
   text-decoration: none;
   font-family: "Fira Sans", sans-serif;
 }
@@ -159,14 +159,14 @@ img {
   align-items: center;
   justify-content: center;
   margin: auto;
-  width: 50%;
+  width:90%;
   min-height: 100vh;
 }
 /* form */
 .form {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 50%;
   justify-content: center;
   align-items: center;
   background-color: rgb(250, 254, 255);
@@ -236,7 +236,8 @@ hr {
   background-color: #ffffff;
   border-radius: 0px 7px;
   box-shadow: 3px 3px 3px 3px #9b9090;
-  margin: auto;
+  margin-bottom: 15px;
+  margin-top: 5px;
 }
 /* signin */
 .signin {
@@ -276,35 +277,15 @@ hr {
   margin-top: 1000px;
 }
 
-@media screen and (max-width: 375px) {
-  .intro {
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    padding: 0;
+@media screen and (max-width: 768px) {
+  .hee {
+    font-size:30px;
   }
-  .myself {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .mah {
+    font-size: 15px;
   }
-  .myself h1 {
-    text-align: center;
-  }
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin: 0;
-    padding: 15px 5px;
-  }
-  .navbar .menu ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .flower {
+    font-size: 15px;
   }
   .navbar .menu ul li {
     padding: 15px 0;
@@ -314,28 +295,37 @@ hr {
     font-size: 10px;
     margin-left: 10px;
   }
-  hr {
-    max-width: 70%;
+  .navbar .menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .hee {
-    font-size: 20px;
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 15px 5px;
   }
-  .mah {
-    font-size: 10px;
+   .intro {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 0;
   }
-  .flower {
-    font-size: 10px;
-  }
+  
   .body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
-    width: 100%;
+    width:70%;
     min-height: 100vh;
   }
   .form {
-    width: 100%;
+    width:100%;
     margin-left: 20px;
     margin-right: 20px;
     display: flex;
@@ -349,20 +339,153 @@ hr {
     width: 90%;
   }
   .submit {
-    width: 100px;
+    width: 90px;
   }
   .select {
     max-width: 90%;
+  } 
+
+}
+   @media screen and (max-width: 450px) {
+ .body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    min-height: 100vh;
   }
-  .navbardown {
-    background-color: crimson;
-    overflow: hidden;
-    height: 40px;
-    box-shadow: 3px 3px 3px 3px #9b9090;
-    max-width: 100%;
-    position: fixed;
-    bottom: 0;
-    z-index: 1;
-    margin-top: 1000px;
+  .form {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+    
+  .input {
+    max-width: 95%;
+  }
+  textarea {
+    width: 90%;
+  }
+  .submit {
+    width: 90px;
+  }
+  .select {
+    max-width: 90%;
+  } 
+}  
+ @media screen and (max-width: 350px) {
+  .hee {
+    font-size:20px;
+  }
+  .mah {
+    font-size: 10px;
+  }
+  .flower {
+    font-size: 10px;
+  }
+  .navbar .menu ul li {
+    padding: 15px 0;
+    cursor: pointer;
+    transition: 0.9s;
+    list-style: none;
+    font-size: 7px;
+    margin-left:5px;
+  }
+  .navbar .menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;                                                     
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 15px 5px;
+    
+  }
+  .list{                   
+    font-size: 15px;
+  }
+  .contact {
+  padding: 10px 2px;
+  width: 100px;
+  font-size: 1rem;
+} 
+ .body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    min-height: 100vh;
+  }
+  .form {
+    width: 97%;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ .label {
+    margin-left: 16px;
+  }
+ .input {
+    max-width:90%;
+    margin-left: 16px;
+  }
+  textarea {
+    width: 90%;
+     margin-left: 16px;
+  }
+  .submit {
+    width:90px;
+   
+  }
+  .select {
+    max-width: 90%;
+     margin-left: 16px;
+  } 
+}
+
+ @media screen and (max-width: 300px) {
+ 
+ .body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    min-height: 100vh;
+  }
+  .form {
+    width: 80%;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ .label {
+    margin-left: 40px;
+  }
+ .input {
+    max-width:70%;
+    margin-left: 40px;
+  }
+  textarea {
+    width: 70%;
+     margin-left:40px;
+  }
+  .submit {
+    width:90px;
+   
+  }
+  .select {
+    max-width: 70%;
+     margin-left: 40px;
+  } 
 }
