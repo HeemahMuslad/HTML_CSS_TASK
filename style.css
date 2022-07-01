@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   text-decoration: none;
   font-family: "Fira Sans", sans-serif;
 }
@@ -159,7 +159,7 @@ img {
   align-items: center;
   justify-content: center;
   margin: auto;
-  width:90%;
+  width: 90%;
   min-height: 100vh;
 }
 /* form */
@@ -279,7 +279,7 @@ hr {
 
 @media screen and (max-width: 768px) {
   .hee {
-    font-size:30px;
+    font-size: 30px;
   }
   .mah {
     font-size: 15px;
@@ -308,50 +308,20 @@ hr {
     margin: 0;
     padding: 15px 5px;
   }
-   .intro {
+  .intro {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     margin: 10px;
     padding: 0;
   }
-  
+
   .body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
-    width:70%;
-    min-height: 100vh;
-  }
-  .form {
-    width:100%;
-    margin-left: 20px;
-    margin-right: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .input {
-    max-width: 90%;
-  }
-  textarea {
-    width: 90%;
-  }
-  .submit {
-    width: 90px;
-  }
-  .select {
-    max-width: 90%;
-  } 
-
-}
-   @media screen and (max-width: 450px) {
- .body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width:100%;
+    width: 70%;
     min-height: 100vh;
   }
   .form {
@@ -362,7 +332,36 @@ hr {
     justify-content: center;
     align-items: center;
   }
-    
+  .input {
+    max-width: 90%;
+  }
+  textarea {
+    width: 90%;
+  }
+  .submit {
+    width: 90px;
+  }
+  .select {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+  }
+  .form {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .input {
     max-width: 95%;
   }
@@ -373,12 +372,12 @@ hr {
     width: 90px;
   }
   .select {
-    max-width: 90%;
-  } 
-}  
- @media screen and (max-width: 350px) {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 350px) {
   .hee {
-    font-size:20px;
+    font-size: 20px;
   }
   .mah {
     font-size: 10px;
@@ -392,12 +391,12 @@ hr {
     transition: 0.9s;
     list-style: none;
     font-size: 7px;
-    margin-left:5px;
+    margin-left: 5px;
   }
   .navbar .menu ul {
     display: flex;
     justify-content: center;
-    align-items: center;                                                     
+    align-items: center;
   }
   .navbar {
     display: flex;
@@ -406,21 +405,20 @@ hr {
     width: 100%;
     margin: 0;
     padding: 15px 5px;
-    
   }
-  .list{                   
+  .list {
     font-size: 15px;
   }
   .contact {
-  padding: 10px 2px;
-  width: 100px;
-  font-size: 1rem;
-} 
- .body {
+    padding: 10px 2px;
+    width: 100px;
+    font-size: 1rem;
+  }
+  .body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width:100%;
+    width: 100%;
     min-height: 100vh;
   }
   .form {
@@ -431,34 +429,32 @@ hr {
     justify-content: center;
     align-items: center;
   }
- .label {
+  .label {
     margin-left: 16px;
   }
- .input {
-    max-width:90%;
+  .input {
+    max-width: 90%;
     margin-left: 16px;
   }
   textarea {
     width: 90%;
-     margin-left: 16px;
+    margin-left: 16px;
   }
   .submit {
-    width:90px;
-   
+    width: 90px;
   }
   .select {
-    max-width: 90%;
-     margin-left: 16px;
-  } 
+    width: 90%;
+    margin-left: 16px;
+  }
 }
 
- @media screen and (max-width: 300px) {
- 
- .body {
+@media screen and (max-width: 300px) {
+  .body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width:100%;
+    width: 100%;
     min-height: 100vh;
   }
   .form {
@@ -469,23 +465,22 @@ hr {
     justify-content: center;
     align-items: center;
   }
- .label {
+  .label {
     margin-left: 40px;
   }
- .input {
-    max-width:70%;
+  .input {
+    max-width: 70%;
     margin-left: 40px;
   }
   textarea {
     width: 70%;
-     margin-left:40px;
+    margin-left: 40px;
   }
   .submit {
-    width:90px;
-   
+    width: 90px;
   }
   .select {
-    max-width: 70%;
-     margin-left: 40px;
-  } 
+    width: 70%;
+    margin-left: 40px;
+  }
 }
