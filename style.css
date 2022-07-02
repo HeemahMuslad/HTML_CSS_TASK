@@ -114,11 +114,12 @@
   box-shadow: 3px 3px 3px 3px #9b9090;
 }
 .list {
-  width: 100%;
-  text-align: center;
   list-style-type: square;
-  list-style-position: inside;
+ list-style-position: inside;
   font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+
 }
 /* contact btn */
 .contact {
